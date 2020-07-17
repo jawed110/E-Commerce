@@ -1,0 +1,84 @@
+.navbar{
+    background-color: #ff0000 !important;
+}
+.nav-link{
+    font-weight: bold;
+}
+.fa-shopping-cart, .fa-user-circle,{
+    font-size: 32px !important;
+    
+}
+.fa-truck, .fa-headphones,  .fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #ff0000;
+}
+h3{
+    color: #ff0000;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color:#ffff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.maincard{
+    flex-wrap: wrap;
+margin-top: 30px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.card{
+    width: 250px;
+    height: auto !important;
+    margin-bottom: 5px ;
+}
+
+.card-text{
+    font-weight: bold;
+}
+
+.newArrivals {
+    margin-top: 50px;
+    height: auto;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+   color:  #ff0000;
+    margin: 20px;
+}
+
+.heading > h1{
+text-shadow: 2px 2px 4px black;
+}
+.btn-primary{
+    width: 100%;
+   background-color: #ff0000;
+}
+
+.footer {
+    width: 100%;
+    background-color: #ff0000;
+    margin: 20px;
+    height: 70px;
+    
+}
+.footer > div {
+    text-align: center !important;
+}
+h4{
+    color: #ffff;
+}
+@media screen and (max-width: 600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+
+}
